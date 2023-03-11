@@ -1,0 +1,11 @@
+[setup]
+complete=false
+    
+    [defaults]
+    root_folder="C:/Users/"
+    notes_handle="/notes/"
+    projects_handle="/projects/"
+
+[paths]
+notes_folder=""
+projects_folder=""
