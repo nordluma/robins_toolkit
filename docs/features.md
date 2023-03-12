@@ -16,9 +16,10 @@ Example: `robin notes -n school_meeting` create new note file with the name scho
 
 ### Projects
 
-- create new project (ahk/python)
-- open project
-- view all projects
+- create new project (ahk/python) arg: [-n, new] type: [-py, -ahk]
+  - example: `robin project -n -py
+- open project [-o, open]
+- view all projects [a, all]
 
 ### TODO
 
@@ -34,8 +35,10 @@ Example: `robin notes -n school_meeting` create new note file with the name scho
 
 ### "GoTo"
 
-- open directory
-- copy directory
+- open directory optional arg: [-o, open]
+  - example 1: `robin goto -o projects`
+  - example 2: `robin goto notes`
+- add new directory
 
 ### Help
 
