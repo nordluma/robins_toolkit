@@ -1,11 +1,7 @@
-[setup]
-complete=false
-    
-    [defaults]
-    root_folder="C:/Users/"
-    notes_handle="/notes/"
-    projects_handle="/projects/"
+[CustomConfig]
+use_custom_config = false
+custom_config_path =""
 
-[paths]
-notes_folder=""
-projects_folder=""
+[CustomErrorMessages]
+use_custom_error_messages = false
+use_custom_error_messages_path = ""

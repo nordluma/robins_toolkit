@@ -27,6 +27,7 @@ fn create_note(note: CreateNote) {
         .expect("failed to execute process");
 }
 
+// Pass favored editor as arg
 fn open_note(note: OpenNote) {
     println!("Opening note: {:?}", note);
     todo!("Open note")
